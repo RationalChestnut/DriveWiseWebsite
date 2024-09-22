@@ -14,7 +14,7 @@ export const Landing = () => {
           Driving accidents are the second highest leading cause of death among
           teenagers in the U.S. Let's change that.
         </p>
-        <button className={styles.downloadButton}>Download Today</button>
+        <button className={styles.downloadButton}>Coming Soon</button>
       </div>
       <img src={landingImage} className={styles.landingImage} alt="Landing" />
     </div>
