@@ -33,6 +33,7 @@
 .description {
   color: black;
   font-size: 20px;
+  max-width: 90%;
 }
 
 .check {
