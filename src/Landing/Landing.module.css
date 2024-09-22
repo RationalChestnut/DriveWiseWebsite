@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .left {
@@ -18,7 +19,7 @@
 
 .subtitle {
   font-size: 20px;
-  color: white;
+  color: black;
   margin: 0px;
   font-weight: 400;
 
@@ -26,7 +27,7 @@
 }
 
 .colored {
-  color: #3eb5d0;
+  color: black;
 }
 
 .downloadImages {
@@ -45,6 +46,19 @@
 
 .landingImage {
   height: 700px;
+}
+
+.downloadButton {
+  position: relative;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1250px) {

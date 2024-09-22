@@ -1,49 +1,48 @@
 import React from "react";
 import styles from "./Features.module.css";
 
-import workout from "../assets/workout.png";
-import summary from "../assets/summary.png";
-import challenge from "../assets/challenge.png";
-import evaluation from "../assets/evaluation.png";
+import route from "../assets/route.png";
+import chat from "../assets/chat.png";
+import profile from "../assets/profile.png";
+import score from "../assets/score.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const featuresData = [
   {
     id: 1,
-    title: "Log Workouts",
+    title: "Route Planning",
     description:
-      "A workout tracker that just works. Everything you need to log your workouts and smash your goals.",
+      "Google Maps but optimized for safety over speed. Our AI model is trained on 22 years of historical accident data to create safer routes.",
     checks: [
-      "Intuitive Workout Logging",
-      "Advanced Routine Planner",
-      "Add Exercise Notes",
-      "Calisthenics And Weightlifting",
+      "3.1 million accidents analyzed",
+      "Momentum-based route planning algorithm",
+      "Variety of safety vs. efficiency levels to select",
     ],
-    image: workout,
+    image: route,
   },
   {
     id: 2,
-    title: "Measure Your Progress",
+    title: "Driving Score",
     description:
-      "Get insights into each exercise and track your progress over time.",
+      "Our AI model analyzes your driving habits and gives you a score based on your driving safety.",
     checks: [
-      "Individual Exercise Ranks",
-      "Ranks Based On Real Lifter Comparison Data",
-      "Accounts For Bodyweight And Gender",
+      "Factors speed data to speed limits",
+      "Detects sudden braking based on accelerometer data",
+      "Detects driving infractions",
     ],
-    image: summary,
+    image: score,
   },
   {
     id: 3,
-    title: "Discover Your Rank",
+    title: "New Driver Education",
     description:
       "See how you stack up against other lifters. NO ONE has reached all S ranks yet. Will you be the first?",
     checks: ["Ranking System", "Real Lifter Comparison Data", "6 Categories"],
-    image: evaluation,
+    image: chat,
   },
   {
     id: 4,
-    title: "Complete Daily Challenges",
+    title: "Driver Profile",
     description: "Complete daily challenges to earn points and level up.",
     checks: [
       "Difficulty Scales Based On Rank",
@@ -51,7 +50,7 @@ const featuresData = [
       "40+ Exercises",
       "Daily Refreshes",
     ],
-    image: challenge,
+    image: profile,
   },
 ];
 
