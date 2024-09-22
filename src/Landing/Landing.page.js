@@ -8,7 +8,7 @@ export const Landing = () => {
     <div className={styles.homePageContainer} id="landing">
       <div className={styles.left}>
         <h1 className={`${styles.header} ${styles.colored}`}>
-          A Safer Mapping Algorithmn
+          A Safer Mapping Algorithm
         </h1>
         <p className={styles.subtitle}>
           Driving accidents are the second highest leading cause of death among
