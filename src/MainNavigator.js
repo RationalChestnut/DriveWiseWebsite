@@ -4,6 +4,7 @@ import styles from "./MainNavigator.module.css";
 import { Features } from "./Features/Features.page";
 import { Video } from "./Video/Video.page";
 import { Mentors } from "./Mentors/Mentors.page";
+import { Association } from "./Association/Association.page";
 
 export const MainNavigator = () => {
   return (
@@ -14,6 +15,7 @@ export const MainNavigator = () => {
           <Features />
           <Video />
           <Mentors />
+          <Association />
         </div>
       </div>
     </div>

@@ -42,7 +42,7 @@ const people = [
 
 export const Mentors = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <h1 className={styles.title}>Team</h1>
       <div className={styles.row}>
         {people.map((person) => {

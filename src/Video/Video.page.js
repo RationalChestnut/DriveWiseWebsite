@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Video.module.css";
 export const Video = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <h1>DriveWise Demo</h1>
       <iframe
         width="600"
