@@ -11,8 +11,8 @@ export const Landing = () => {
           A Safer Mapping Algorithm
         </h1>
         <p className={styles.subtitle}>
-          Driving accidents are the second highest leading cause of death among
-          teenagers in the U.S. Let's change that.
+          Driving accidents are the leading cause of death among teenagers in
+          the U.S. Let's change that.
         </p>
         <button className={styles.downloadButton}>Coming Soon...</button>
       </div>
