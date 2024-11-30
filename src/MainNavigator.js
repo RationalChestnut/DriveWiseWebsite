@@ -14,7 +14,7 @@ export const MainNavigator = () => {
           <Landing />
           <Features />
           <Video />
-          <Mentors />
+          {/* <Mentors /> */}
           <Association />
         </div>
       </div>
